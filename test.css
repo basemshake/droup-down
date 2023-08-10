@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.show-mobil{
+    display: none;
+}
+.show-small-scream{
+    display: none;
+}
+
+.showscrean{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+    height: 60px;
+    
+}
+
+.showscrean ul li a{
+   padding: 2px;
+    color: white;
+    transition: 0.4s;
+    display: inline-block;
+}
+.showscrean ul li{
+    display: inline-block;
+    margin: 5px;
+    margin-right: 50px;
+}
+.showscrean h1{
+    margin-left: 40px;
+    
+    
+}
+
+.showscrean span{
+    color: chartreuse;
+    position: absolute;
+    left: 130px;
+    animation: xx 1s;
+
+}
+@keyframes xx{
+    from{
+        left: 250px;
+    }
+    to{
+        left: 130px;
+    }
+}
+
+.showscrean ul li a:hover{
+    transform: scale(1.1);
+  
+    border: 2px chartreuse;
+    border-radius: 10%;
+    box-shadow: 0 0 5px chartreuse;
+   
+    color:chartreuse;
+}
+.main{
+    position: absolute;  
+    top: 60px;
+    right: 250px;
+    background-color: rgba(15, 16, 16, 0.717);
+    width: 120px;
+    border-radius: 2px;
+    border-top: 1px solid chartreuse;
+}
+.main .main-link{
+    
+   margin: 5px 10px;
+   border-radius: 5px;
+   border-bottom: 1px solid white;
+   
+   
+}
+.main{
+   display: none;
+    position: absolute;  
+    top: 50px;
+    right: 250px;
+    background-color: rgba(15, 16, 16, 0.717);
+    width: 120px;
+   
+    border-radius: 2px;
+    border-top: 1px solid chartreuse;
+}
+
+.showscrean li:hover .main{
+    display: block;
+   
+}
+
+
+
+.main2 .main-link2{
+    margin: 5px 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+
+ }
+ .main2{
+     position: absolute;  
+     top: 50px;
+     right: 120px;
+     background-color: rgba(15, 16, 16, 0.717);
+     width: 120px;
+     border-radius: 2px;
+     border-top: 1px solid chartreuse;
+     display: none;
+ }
+ .showscrean li:hover .main2{
+    display: block;
+   
+}
+ .main3 .main-link3{
+    margin: 5px 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+ }
+ .main3{
+     position: absolute;  
+     top: 50px;
+     right: 10px;
+     background-color: rgba(15, 16, 16, 0.717);
+     width: 120px;
+     border-radius: 2px;
+     border-top: 1px solid chartreuse;
+     display: none;
+ }
+ .showscrean li:hover .main3{
+    display: block;
+   
+}
+

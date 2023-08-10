@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.showscrean{
+    display: none;
+}
+.show-mobil{
+    display: none;
+ 
+}
+/* .show-small-scream{
+    display: block;
+} */
+       
+
+.show-small-scream{
+    background: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+    height: 60px;
+    
+}
+.show-small-scream h1{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.show-small-scream span{
+    color: chartreuse;
+
+}
+.fa-bars{
+    position: absolute;
+    right:30px;
+    top: 25px;
+
+    
+    transform: scale(1.5);
+}
+input{
+    display: none;
+}
+.fa-bars:checked + .fa-bars{
+    display: block;
+}
+.show-click{
+    background-color: rgba(0, 0, 0, 0.413);
+    width: auto;
+    display: none;
+    position: absolute;
+    top: 60px; 
+    width: 20vh;
+    padding: 2px 10px;
+    color: white
+    
+    
+    
+}
+.show-click a{
+    display: block;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 25px;
+   
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+
+}
+.show-click a:hover{
+    transform: scale(1.1);
+    color: black;
+    letter-spacing: 0px;
+}
+#burger:checked+ .show-click{
+display: block;
+}
+.show-mobil i{
+    margin: 0 -40px;
+}
+
+.fa-solid:hover{
+    color: chartreuse;
+    
+    cursor: pointer;
+}
